@@ -78,7 +78,7 @@ body {   font-family: 'HelveticaNeue-Light', 'Arial';   color: #555;   backgroun
           window.addEventListener("scroll", function() {
             if(!z){
             var sc_top = document.body.scrollTop || document.documentElement.scrollTop;
-            if(gn_afst_border <= sc_top + screen.height * 0.5){
+            if(gn_afst_border <= sc_top + screen.height){
                 //a.style.zIndex = "1000000";
                 a.style.display = "block";
                 z = true;
